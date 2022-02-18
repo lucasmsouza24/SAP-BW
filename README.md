@@ -26,10 +26,35 @@ Os dados de um Data Warehouse podem vir de Sistemas Transacionais, Banco de Dado
 
 ### SAP BW
 
-O BW é um Data Warehouse que busca as informações a partir do ECC.
+O BW é um Data Warehouse que, geralmente, busca as informações a partir do ECC.
 
-O BW possui vários ambientes: 
+O BW possui alguns ambientes: 
 
 - Desenvolvimento   -> B1D
 - Qualidade         -> B1Q
 - Produção          -> B1P
+
+### Tipos de dados 
+
+Existem dois tipos de dados que precisam ser carregados no BW: Dados Mestres e Dados Transacionais.
+
+#### Dados Mestre / Master Data
+
+
+* armazenados em InfoObjetos;
+
+* Atributos, hierarquias e textos
+
+* Correspondem aos Dados Mestre no SAP;
+
+> Exemplo: Cliente, carro, etc.
+
+#### Dados Transacionais / Transactional Data
+
+* armazenados em InfoCubos e DSO's
+
+* utilizados para análise, ou seja, são dados de movimento extraidos de DataSources
+
+> Exemplo: Criação de pedidos
+
+### Fluxo de cargas no BW
