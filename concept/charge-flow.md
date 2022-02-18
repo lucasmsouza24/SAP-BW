@@ -1,7 +1,8 @@
 [<- Tópico anterior](./data-types.md) | 
 [Próximo tópico ->](#)
 
-### Fluxo de cargas no BW
+# Fluxo de Carga de Dados e InfoObjetos
+## Fluxo de cargas no BW
 
 ![charge-flow](../img/charge-flow.png)
 
@@ -12,7 +13,7 @@
 * Open Hub Destination: enviar o dado para fora
 * InfoSource vs DSO
 
-### InfoObjetos
+## InfoObjetos
 * **Cracteristicas**
 
     Podem ter dados armazenados em Dados Mestres.
