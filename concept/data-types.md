@@ -7,7 +7,7 @@ Existem dois tipos de dados que precisam ser carregados no BW: Dados Mestres e D
 
 ## Dados Mestre / Master Data
 
-* armazenados em InfoObjetos;
+* armazenados em [InfoObjetos](./charge-flow.md);
 
 * Atributos, hierarquias e textos
 
